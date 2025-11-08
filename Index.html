@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laptop Settings</title>
+  <link rel="stylesheet" href="styel.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <aside class="sidebar">
+      <div class="logo">Laptop Settings</div>
+      <nav>
+        <a href="" class="active">System</a>
+        <a href=""> Network</a>
+        <a href=""> Display</a>
+        <a href="power.html"> Power</a>
+        <a href=""> Privacy</a>
+      </nav>
+    </aside>
+
+    <main class="main">
+      <header>
+        <h1>System Settings</h1>
+        <button class="save-btn"> Save Changes</button>
+      </header>
+      
+      <section class="card">
+        <h2>Quick Controls</h2>
+        <div class="setting">
+          <span>Wi-Fi</span>
+          <label class="switch">
+            <input type="checkbox" checked>
+            <span class="slider"></span>
+          </label>
+        </div>
+        <div class="setting">
+          <span>Bluetooth</span>
+          <label class="switch">
+            <input type="checkbox">
+            <span class="slider"></span>
+          </label>
+        </div>
+        <div class="setting">
+          <span>Night Mode</span>
+          <label class="switch">
+            <input type="checkbox" checked>
+            <span class="slider"></span>
+          </label>
+        </div>
+        <div class="setting">
+          <span>Airplane Mode</span>
+          <label class="switch">
+            <input type="checkbox">
+            <span class="slider"></span>
+          </label>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Display & Brightness</h2>
+        <label>Brightness</label>
+        <input type="range" min="0" max="100" value="100">
+      </section>
+
+      <section class="card about">
+        <h2>About This Laptop</h2>
+        <p><strong>Device Name:</strong> Lenovo-Laptop</p>
+        <p><strong>Storage:</strong> 256GB free of 512GB</p>
+        <p><strong>OS:</strong> Windows 11 Pro</p>
+      </section>
+    </main>
+
+  </div>
+</body>
+</html>
